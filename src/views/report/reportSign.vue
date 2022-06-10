@@ -3,10 +3,10 @@
     <el-form :model="searchForm" :inline="true">
       <el-row>
         <el-col :span="19">
-          <el-form-item label="任务单号1111111:">
+          <el-form-item label="任务单号:">
             <el-input v-model="searchForm.jobId" style="width:165px" placeholder="任务单号" />
           </el-form-item>
-          <el-form-item label="项目名称1111111:">
+          <el-form-item label="项目名称:">
             <el-input v-model="searchForm.projectName" style="width:165px" placeholder="项目名称" />
           </el-form-item>
           <el-form-item>
